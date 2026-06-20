@@ -179,8 +179,3 @@ bunx prisma generate
 bunx prisma db push
 ```
 
-## Source Video
-
-This project was originally built in a YouTube video by Harkirat Singh:
-
-https://www.youtube.com/watch?v=iNJ7z4YLQFk
