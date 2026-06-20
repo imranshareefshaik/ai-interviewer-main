@@ -47,3 +47,18 @@ VITE_DEEPGRAM_TOKEN=
 - `/` starts a new interview.
 - `/interview/:interviewId` shows the live interview screen.
 - `/result/:interviewId` shows the saved transcript and feedback.
+
+## Quick local run helpers
+
+- Start both backend and frontend and open the app in your browser:
+
+```powershell
+./scripts/run-local.ps1
+```
+
+- Expose your local backend to the internet (requires Node.js / npx and localtunnel):
+
+```powershell
+./scripts/expose-backend.ps1
+```
+
